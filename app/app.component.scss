@@ -1,0 +1,14 @@
+.main-content {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+app-header, main, app-footer {
+    flex: 0 0 auto; /* Allow flex items to grow and shrink, but not take up additional space */
+  }
+
+  main {
+    flex-grow: 1; /* Allow main content to grow to fill available space */
+    margin-top: 5rem;
+  }

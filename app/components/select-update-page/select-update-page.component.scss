@@ -1,0 +1,135 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #95a7b7;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.path-selector {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.path-selector label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.path-selector input {
+  width: 400px;
+  padding: 5px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.path-selector .upload-area {
+  display: flex;
+  align-items: center;
+}
+
+.path-selector .upload-area input[type="file"] {
+  display: none;
+}
+
+.path-selector .upload-area label {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c757d;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.path-selector .upload-area label:hover {
+  background-color: #5a6268;
+  transform: scale(1.05);
+}
+
+.show-folder {
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c757d;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.show-folder:hover {
+  background-color: #5a6268;
+  transform: scale(1.05);
+}
+
+.tables {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d3d3d3;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 0 10px;
+}
+
+.table-header {
+  background-color: #1b1f3a;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.table-container ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 200px;
+  height: 200px;
+  overflow-y: scroll;
+}
+
+.table-container li {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.arrow-container {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.update-databases {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #6c757d;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.update-databases:hover {
+  background-color: #5a6268;
+  transform: scale(1.05);
+}

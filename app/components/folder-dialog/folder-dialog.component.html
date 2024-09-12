@@ -1,0 +1,9 @@
+<h1 mat-dialog-title>Files in Directory</h1>
+<div mat-dialog-content>
+  <ul>
+    <li *ngFor="let file of data.files">{{ file }}</li>
+  </ul>
+</div>
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close>Close</button>
+</div>

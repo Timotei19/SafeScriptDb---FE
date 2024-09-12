@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="path-selector">
+    <label for="scriptsPath">Select Scripts Path</label>
+    <input type="text" id="scriptsPath" [(ngModel)]="scriptsPath" />
+    <div class="upload-area">
+      <input type="file" id="fileInput" webkitdirectory directory multiple (change)="onFileSelected($event)">
+      <label for="fileInput">Select Directory</label>
+    </div>
+  </div>
+  <button class="show-folder" (click)="showFolderContent()">Show Folder Content</button>
+  
+  <div class="tables">
+    <div class="table-container">
+      <div class="table-header">Select Databases</div>
+      <ul>
+        <li *ngFor="let db of databases" (click)="moveToUpdateList(db)">
+          {{ db }}
+        </li>
+      </ul>
+    </div>
+    <div class="arrow-container">
+      <span>&#8594;</span>
+    </div>
+    <div class="table-container">
+      <div class="table-header">Databases To Update</div>
+      <ul>
+        <li *ngFor="let db of databasesToUpdate" (click)="moveToAvailableList(db)">
+          {{ db }}
+        </li>
+      </ul>
+    </div>
+  </div>
+  
+  <button class="update-databases" (click)="updateDatabases()">Update Databases</button>
+</div>

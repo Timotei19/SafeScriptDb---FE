@@ -1,0 +1,29 @@
+.connect-card {
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .connect-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-field {
+    margin-bottom: 20px; /* Add margin between form fields */
+  }
+  
+  /* Optional: Adjust input and button styles */
+  .mat-form-field {
+    width: 100%;
+  }
+  
+  button {
+    width: 100%;
+  }
+  

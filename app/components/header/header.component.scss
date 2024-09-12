@@ -1,0 +1,53 @@
+.header {
+    position: absolute;
+    width: 100%;
+    height: 5rem;
+    background-color: #05062B;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Space between logo and profile */
+    padding: 0 1rem;
+  }
+  
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-image {
+    height: 40px; /* Adjust the size of the logo */
+    margin-right: 1rem; /* Space between logo and text */
+  }
+  
+  .app-name {
+    font-size: 1.5rem;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .tagline {
+    font-size: 1rem;
+    margin-left: 0.5rem;
+  }
+  
+  .profile {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-image {
+    height: 40px; /* Adjust the size of the profile image */
+    border-radius: 50%;
+    cursor: pointer; /* Optional: Adds a pointer on hover */
+  }
+  
